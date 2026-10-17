@@ -1,0 +1,1 @@
+This is going to be the repo to show my progress through "The Developers Guide to AI" by Jacob Orshalick
