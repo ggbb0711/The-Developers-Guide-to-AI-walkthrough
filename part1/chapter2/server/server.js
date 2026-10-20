@@ -13,7 +13,7 @@ app.post('/',async (request, response)=>{
 
     const question = request.body.question
 
-    const modelRespones = await ollama.generate({
+    const modelRespones = await ollama.chat({
         model: 'llama3.2',
         prompt: question,
         stream: true
